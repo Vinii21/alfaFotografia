@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+		<title>Alfa Fotografia</title>
+		<meta charset= "UTF-8">
+		<meta name="author" content="Vinicio Chavarría">
+		<meta name="description" content="Página prueba de fotografía">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="">
+		<link rel="shortcut icon" href="/ruta.png" type="imagen/x-icon">
+		
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Tangerine:wght@400;700&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="./css/normalize.css">
+		<link rel="stylesheet" href="./css/main.css">
+        <script src="./Js/jquery.js"></script>
+        <script src="./Js/parallax.js"></script>
+        <script src="./Js/efectos.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="menu">
+            <div class="logo">
+                <a href="/">
+                    <img src="./assets/LOGO.png" alt="Logo Alfa Fotografía" width="300">
+                    <span>Alfa Fotografía</span>
+                </a>
+            </div>
+            <nav>
+                <a id="btn-sobreMi" href="#nosotros">Sobre mí</a>
+                <a id="btn-galeria" href="#galeria">Galería</a>
+                <a id="btn-contacto" href="#contacto">Contacto</a>
+            </nav>
+        </div>
+        
+        <div class="contenedor">
+            <h1>Capturando tus momentos</h1>
+            <span></span>
+            <span class="row"></span>
+        </div>
+    </header>
+
+    <main>
+            <!-- SOBRE MI -->
+           <section class="nosotros" id="nosotros">
+               <div class="contenedor">
+                    <div class="cont-foto">
+                        <img src="./assets/modelo.jpg" alt="Mujer sosteniendo una camara" width="300">
+                    </div>
+                    <div class="cont-info">
+                        <h2>¡Hola! Soy Lady</h2>
+                        <p>Fundadora de Alfa Fotografía con 10 años de experiencia, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias est animi natus, ab ea blanditiis error ipsa nemo esse atque veniam rem vitae, quod fuga aperiam eligendi nesciunt ullam sapiente.</p> <br>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias est animi natus, ab ea blanditiis error ipsa nemo esse atque veniam rem vitae, quod fuga aperiam eligendi nesciunt ullam sapiente.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias est animi natus, ab ea blanditiis error ipsa nemo esse atque veniam rem vitae, quod fuga aperiam eligendi nesciunt ullam sapiente.</p>
+                    </div>
+               </div>
+           </section>
+           <!-- SERVICIOS / GALERIA -->
+           <section class="galeria" >
+               <div class="contenedor" id="galeria">
+
+                    <div class="tarjeta boda" >
+                        <div class="fondo">
+                            <div class="tarjeta-info">
+                                <h3>Boda</h3>
+                                <p>Tu boda desde una perspectiva única, capturar la naturalidad y sus momentos mas espontáneos. Un recuerdo para el resto de vuestras vidas.</p>
+                                <a class="btn-info" href="/">Detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tarjeta familia">
+                        <div class="fondo">
+                            <div class="tarjeta-info">
+                                <h3>Familia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quas, possimus repellat minima recusandae nihil eos, deserunt dignissimos debitis fugit labore quos ducimus</p>
+                                <a class="btn-info" class="btn-info" href="/">Detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tarjeta gastronomia">
+                        <div class="fondo">
+                            <div class="tarjeta-info">
+                                <h3>Gastronomia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quas, possimus repellat minima recusandae nihil eos, deserunt dignissimos debitis fugit labore quos ducimus</p>
+                                <a class="btn-info" href="/">Detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tarjeta espacio">
+                        <div class="fondo">
+                            <div class="tarjeta-info">
+                                <h3>Tu Espacio</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quas, possimus repellat minima recusandae nihil eos, deserunt dignissimos debitis fugit labore quos ducimus</p>
+                                <a class="btn-info" href="/">Detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tarjeta mascotas">
+                        <div class="fondo">
+                            <div class="tarjeta-info">
+                                <h3>Mascotas</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quas, possimus repellat minima recusandae nihil eos, deserunt dignissimos debitis fugit labore quos ducimus</p>
+                                <a class="btn-info" href="/">Detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tarjeta producto">
+                        <div class="fondo">
+                            <div class="tarjeta-info">
+                                <h3>Tus Productos</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quas, possimus repellat minima recusandae nihil eos, deserunt dignissimos debitis fugit labore quos ducimus</p>
+                                <a class="btn-info" href="/">Detalles</a>
+                            </div>
+                        </div>
+                    </div>
+
+               </div>
+                
+           </section>
+           <!-- CONTACTO -->
+           <section class="contacto" id="contacto">
+               <div class="contenedor">
+                   <div class="redes">
+                       <a href="/"><img src="./assets/instagram.png" alt="icono instagram"></a>
+                       <a href="/"><img src="./assets/YOUTUBE.png" alt="icono youtube"></a>
+                       <a href="/"><img src="./assets/facebook.png" alt="icono facebook"></a> 
+                   </div>
+                   <div class="cont-info">
+                       <h3>Cuentanos tu proyecto</h3>
+                       <div class="item">
+                           <span class="whatsapp"><img src="./assets/Whatsapp.webp" alt="icono whatsapp"></span>
+                           <div class="item-info">
+                                <h4>WhatsApp</h4>
+                                <p>+506 0000 0000</p>
+                           </div>
+                       </div>
+                       <div class="item">
+                           <img src="./assets/phone.png" alt="icono telefono">
+                           <div class="item-info">
+                               <h4>Llamanos</h4>
+                                <p>+506 0000 0000</p></div>
+                            </div>
+                       <div class="item">
+                           <span class="correo"><img src="./assets/email.png" alt="icono correo"></span>
+                           <div class="item-info">
+                                <h4>Ponte en contacto</h4>
+                                <p>alfa.fotogafia@gmail.com</p>
+                           </div>
+                       </div>
+                       <div class="item">
+                           <span class="direccion"><img src="./assets/mpa.png" alt="icono ubicacion"></span>
+                           <div class="item-info">
+                                <h4>Donde estamos</h4>
+                                <p>Lorem, ipsum dolor.</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.9199676062963!2d-84.32870168578991!3d10.105636973980602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0591f54eee5f3%3A0x9db295d3dc563396!2sMuebles%20Ramirez%20Sarchi!5e0!3m2!1ses!2scr!4v1653674818615!5m2!1ses!2scr" width="1600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                   </div>
+               </div>
+           </section> 
+
+    </main>
+
+    <footer class="footer">
+        <span>Copyright 2022 Alfa Fotografía</span>
+    </footer>
+</body>
+</html>
