@@ -1,0 +1,18 @@
+
+header nav ul{
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+    height: 100%;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: var(--colorDark);
+    padding: 0px 5px;
+    position: relative;
+}
+
+header nav ul a strong{
+    cursor: default;
+}

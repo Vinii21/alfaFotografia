@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
     $(window).scroll(function(){
-        var windowWidth = $(window).width();
+        let windowWidth = $(window).width();
 
         if(windowWidth > 900){
-            var scroll = $(window).scrollTop();
+            let scroll = $(window).scrollTop();
 
             $('header .contenedor').css({
                 'transform': 'translate(0px, -' + scroll / 5 + '%)'
@@ -17,7 +17,7 @@ $(document).ready(function(){
     });
 
     $(window).resize(function(){
-        var windowWidth = $(window).width();
+        let windowWidth = $(window).width();
 
         if(windowWidth > 900){
             $('nosotros .contenedor .cont-info').css({

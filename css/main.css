@@ -1,5 +1,5 @@
 :root{
-    --fontTangerine: 'Tangerine', cursive;
+    --fontTangerine: 'Tangerine', sans-serif;
     --fontNanumGothic: 'Nanum Gothic', sans-serif;
     --colorWhite: #fff;
     --colorDark: #333;
@@ -140,8 +140,16 @@ main .nosotros .cont-info{
 /* /////////// GALERIA ////////////////// */
 
 main .galeria{
-    padding-top: 500px;
+    padding-top: 510px;
     padding-bottom: 100px;
+}
+
+main .galeria .galeria-titulo{
+    position: relative;
+    top: -10px;
+    text-align: center;
+    font-family: var(--fontTangerine);
+    font-size: 40px;
 }
 
 main .galeria .contenedor{
@@ -371,10 +379,8 @@ main .contacto .mapa iframe{
     padding-bottom: 10px;
     font-size: 16px;
 }
-
 /* ///////////////////////////////////////////////////////////////// */
 /* ////////////////// MEDIA QUERY //////////////////////////////////// */
-
 @media screen and (max-width: 1000px) {
     main .nosotros .cont-info{
         right: 120px;
@@ -631,6 +637,3 @@ main .contacto .mapa iframe{
         display: none;
     }
 }
-
-
-
